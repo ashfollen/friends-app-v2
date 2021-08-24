@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import FriendsContainer from "./components/FriendsContainer";
+
 // import Chandler from './audioclips/Chandler.mp3'
 // import Ross from './audioclips/Ross.mp3'
 // import Rachel from './audioclips/Rachel.mp3'
@@ -10,6 +11,9 @@ import FriendsContainer from "./components/FriendsContainer";
 // import Gunther from './audioclips/Gunther.mp3'
 // import Phoebe from './audioclips/Phoebe.mp3'
 import audio from './audioclips/Chandler.mp3'
+
+import AddFriendContainer from "./components/AddFriendContainer";
+
 
 function App() {
 
@@ -29,13 +33,23 @@ function App() {
     .then(friends => setFriends(friends))
   }, [])
 
+  function onAddNewFriend(newFriend) {
+    const updatedFriends = [...friends, newFriend]
+    setFriends(updatedFriends)
+  }
+
   return (
     <>
     <div className="App">
-      <FriendsContainer friends={friends}  />
+
+     
       {/* playAudio={playAudio} */}
     
         {/* <button onClick={playAudio}>PLAY AUDIO</button> */}
+
+      <FriendsContainer friends={friends} onAddNewFriend={onAddNewFriend} />
+      <AddFriendContainer onAddNewFriend={onAddNewFriend} />
+
     </div>
    </>
   );

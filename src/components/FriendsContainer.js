@@ -1,12 +1,15 @@
-import FriendCard from "./FriendCard"
+import FriendCard from "./FriendCard";
 
 
-export default function FriendsContainer ({friends}) {
+
+export default function FriendsContainer ({ friends, onAddNewFriend }) {
   console.log(friends)
   return (
     <div id="friends-collection">
       {friends.map((friend) => (
-      <FriendCard friend={friend} key={friend.id} image={friend}  />))}
+      <FriendCard friend={friend} key={friend.id} image={friend} />))}
+      
+
     </div>
   )
 }
