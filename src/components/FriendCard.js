@@ -1,12 +1,15 @@
-
-
 import React from 'react';
-import Player from "./Player"
-import UseAudio from './UseAudio';
+import Chandler from '../audioclips/Chandler.mp3'
+
 
 const FriendCard = ({ friend }) => {
+
+  const playAudio = (name) => {
+    new Audio(`${name}`).play();
+  }
+  
   return (
-    <div className="friend-column">
+    <div className="friend-column"  >
       <div className="friend-card"
         key={friend.id}
       >
@@ -24,31 +27,20 @@ const FriendCard = ({ friend }) => {
             <i className="icon heartbeat" />
             {friend.about}
           </span>
-          <span>
-            {/* <i className="icon dollar" /> */}
-            {/* <i class="cil-mic-alt"></i> */}
-            {friend.audio}
-          </span>
           
           <span>
-            <div className="ui center aligned segment basic">
-            {/* <i class="cil-mic-alt" /> */}
-              {/* <button
-                className="ui mini blue button"
-                onClick={(e) => {
-                  e.stopPropagation();
-                  // dischargeBill(friend.id)
 
-                
-                 
-                }}
+            <div className="audio">
+            <audio controls>
+              <source src={Chandler} type="audio/mpeg"/>
+            </audio>
+              <button id={friend.firstName}
+                className="ui mini blue button"
+                // onClick={(e) => playAudio(e.target.id)}
               >
-               PLAY
                
-              </button> */}
+              </button>
             
-              {/* <UseAudio friend={friend}  />  */}
-              
 
 
             </div>

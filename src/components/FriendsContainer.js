@@ -9,6 +9,9 @@ export default function FriendsContainer ({ friends, onAddNewFriend }) {
       {friends.map((friend) => (
       <FriendCard friend={friend} key={friend.id} image={friend} />))}
       
+
     </div>
   )
 }
+
+// deleted payAudio as a props and friendCard

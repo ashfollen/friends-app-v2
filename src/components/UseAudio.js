@@ -22,9 +22,13 @@
 //   }, []);
 
 //   return (
+
+
+
 //     <div>
 //       <Player friend={friend} />
 
 //       [playing, toggle];
 //     </div>
+
 //   )};
