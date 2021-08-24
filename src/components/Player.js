@@ -1,15 +1,15 @@
-import React, { useState} from "react"
+// import React, { useState, useAudio} from "react"
 
 
 
-const Player = ({ friend }) => {
-  const [playing, toggle] = useAudio(friend.audio);
+// const Player = ({ friend }) => {
+//   const [playing, toggle] = useAudio(friend.audio);
 
-  return (
-    <div>
-      <button onClick={toggle}>{playing ? "Pause" : "Play"}</button>
-    </div>
-  );
-};
+//   return (
+//     <div>
+//       <button onClick={toggle}>{playing ? "Pause" : "Play"}</button>
+//     </div>
+//   );
+// };
 
-export default Player;
+// export default Player;

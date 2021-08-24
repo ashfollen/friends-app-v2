@@ -1,12 +1,15 @@
-
-
 import React from 'react';
-import Player from "./Player"
-import UseAudio from './UseAudio';
+import Chandler from '../audioclips/Chandler.mp3'
+
 
 const FriendCard = ({ friend }) => {
+
+  const playAudio = (name) => {
+    new Audio(`${name}`).play();
+  }
+  
   return (
-    <div className="friend-column">
+    <div className="friend-column"  >
       <div className="friend-card"
         key={friend.id}
       >
@@ -24,30 +27,22 @@ const FriendCard = ({ friend }) => {
             <i className="icon heartbeat" />
             {friend.about}
           </span>
-          <span>
-            {/* <i className="icon dollar" /> */}
-            {/* <i class="cil-mic-alt"></i> */}
-            {friend.audio}
-          </span>
           
           <span>
-            <div className="ui center aligned segment basic">
-            <i class="cil-mic-alt" />
-              {/* <button
+            <div className="audio">
+            <audio controls>
+              <source src={Chandler} type="audio/mpeg"/>
+            </audio>
+              <button id={friend.firstName}
                 className="ui mini blue button"
-                onClick={(e) => {
-                  e.stopPropagation();
-                  // dischargeBill(friend.id)
-
-                
-                 
-                }}
+                // onClick={(e) => playAudio(e.target.id)}
               >
-               PLAY
-               
-              </button> */}
+               <svg xmlns="http://www.w3.org/2000/svg" className="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
+</svg>
+              </button>
             
-              <UseAudio friend={friend}  /> 
+           
               
 
 
