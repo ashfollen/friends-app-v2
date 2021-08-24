@@ -32,7 +32,7 @@ const FriendCard = ({ friend }) => {
           
           <span>
             <div className="ui center aligned segment basic">
-            <i class="cil-mic-alt" />
+            {/* <i class="cil-mic-alt" /> */}
               {/* <button
                 className="ui mini blue button"
                 onClick={(e) => {
@@ -47,7 +47,7 @@ const FriendCard = ({ friend }) => {
                
               </button> */}
             
-              <UseAudio friend={friend}  /> 
+              {/* <UseAudio friend={friend}  />  */}
               
 
 
