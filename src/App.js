@@ -63,26 +63,21 @@ function App() {
 
 <Router>
       <div className="App">
-        <nav>
-          <ul>
-          <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/friends">Friends</Link>
-            </li>
-            <li>
-              <Link to="/add">Add friends</Link>
-            </li>
-        
-          </ul>
+        <nav className="nav">
+            
+              <h2 className="bluelink"><Link to="/">Home</Link></h2>
+            
+            
+              <h2 className="redlink"><Link to="/friends">Friends</Link></h2>
+            
+           
+              <h2 className="yellowlink"><Link to="/add">Add friends</Link></h2>
+            
         </nav>
 
-        {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
         <Switch>
         <Route exact path="/">
-            <Home   />
+            <Home />
           </Route>
           <Route path="/friends">
             <FriendsContainer friends={friends} onAddNewFriend={onAddNewFriend}  />

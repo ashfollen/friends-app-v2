@@ -4,7 +4,8 @@ function AddForm({ onAddNewFriend }) {
     const [ newFriendName, setNewFriendName ] = useState("");
     const [ newFriendImage, setNewFriendImage ] = useState("");
     const [ newFriendAbout, setNewFriendAbout ] = useState("");
-    const [ newFriendSound, setNewFriendSound ] = useState("");
+    const [ friend, setFriend ] = useState(false);
+    
 
     function handleSubmit(event) {
         event.preventDefault();
@@ -12,7 +13,7 @@ function AddForm({ onAddNewFriend }) {
             "name": newFriendName,
             "image": newFriendImage,
             "about": newFriendAbout,
-            "audio": newFriendSound
+            
         }
         console.log(newFriendFormData);  
 
@@ -25,6 +26,10 @@ function AddForm({ onAddNewFriend }) {
         })
         .then(resp => resp.json())
         .then(data => onAddNewFriend(data))     
+    }
+
+    function friendStatus() {
+        setFriend(true);
     }
 
 
@@ -63,18 +68,10 @@ function AddForm({ onAddNewFriend }) {
                     />
                 </div>
 
-                <div className="form-field-input">
-                    <label htmlFor="audio">Sound   </label>
-                    <input 
-                        type="text" 
-                        id="audio" 
-                        value={newFriendSound} 
-                        onChange={e => setNewFriendSound(e.target.value)}
-                    />
-                </div>
 
                 <div className="form-field-input">                   
-                    <input type="submit" value="Add Friend" />
+                    <input className="input-button" type="submit" value="Add Friend" onClick={friendStatus} />
+                    {friend ? <p>Added to Friends!</p> : null}
                 </div> 
             </div>
         </form>

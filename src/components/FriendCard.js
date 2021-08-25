@@ -13,7 +13,7 @@ const FriendCard = ({ friend }) => {
  
   
   return (
-    <div className="Friends-image">  
+    <div className="friend-image">  
         <img alt={friend.name} src={friend.image} 
         onClick={showDetails}
         />
