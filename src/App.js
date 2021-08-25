@@ -11,9 +11,15 @@ import FriendsContainer from "./components/FriendsContainer";
 // import Gunther from './audioclips/Gunther.mp3'
 // import Phoebe from './audioclips/Phoebe.mp3'
 import audio from './audioclips/Chandler.mp3'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 import AddFriendContainer from "./components/AddFriendContainer";
-
+import Home from './components/Home';
 
 function App() {
 
@@ -39,20 +45,58 @@ function App() {
   }
 
   return (
-    <>
-    <div className="App">
+//     <>
+//     <div className="App">
 
      
-      {/* playAudio={playAudio} */}
+//       {/* playAudio={playAudio} */}
     
-        {/* <button onClick={playAudio}>PLAY AUDIO</button> */}
+//         {/* <button onClick={playAudio}>PLAY AUDIO</button> */}
 
-      <FriendsContainer friends={friends} onAddNewFriend={onAddNewFriend} />
-      <AddFriendContainer onAddNewFriend={onAddNewFriend} />
+//       <FriendsContainer friends={friends} onAddNewFriend={onAddNewFriend} />
+//       <AddFriendContainer onAddNewFriend={onAddNewFriend} />
 
-    </div>
-   </>
+//     </div>
+//    </>
+//   );
+// }
+
+<Router>
+      <div className="App">
+        <nav>
+          <ul>
+          <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/friends">Friends</Link>
+            </li>
+            <li>
+              <Link to="/add">Add friends</Link>
+            </li>
+        
+          </ul>
+        </nav>
+
+        {/* A <Switch> looks through its children <Route>s and
+            renders the first one that matches the current URL. */}
+        <Switch>
+        <Route exact path="/">
+            <Home   />
+          </Route>
+          <Route path="/friends">
+            <FriendsContainer friends={friends} onAddNewFriend={onAddNewFriend}  />
+          </Route>
+          <Route path="/add">
+            <AddFriendContainer onAddNewFriend={onAddNewFriend} />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
+
+
+
 
 export default App;
