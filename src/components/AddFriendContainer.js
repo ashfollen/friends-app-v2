@@ -4,8 +4,7 @@ import AddForm from "./AddForm";
 
 function AddFriendContainer({ onAddNewFriend }) {
     return (
-        <div>
-            <h1>More Friends</h1>
+        <div className="add-friend-container">
             <AddList onAddNewFriend={onAddNewFriend} />
             <AddForm onAddNewFriend={onAddNewFriend} />
         </div>

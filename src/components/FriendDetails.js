@@ -40,38 +40,27 @@ export default function FriendDetails ({friend}){
 
 
   return(
-  <div className="friend-column"  >
-      <div className="friend-card"
-        key={friend.id}
-      >
-        
-        <div className="content">
-          <div className="header">{friend.name}</div>
-          <div className="meta text-wrap">
-            {/* <small>{friend.catchphrase}</small> */}
-          </div>
-        </div>
-        <div className="extra content">
+  
+    <div className="friend-card" key={friend.id}>
+     
+        <div className="header">
+          <h3>{friend.name}</h3>
+        </div>   
+      
+      <div className="extra content">
           <span>
-            <i className="icon heartbeat" />
-            {friend.about}
+             {friend.about}
           </span>
-          
           <span>
-
             <div className="audio">
-            <audio autoPlay >
-              <source src={audio()} type="audio/mpeg"/>
-            </audio>
-        
-            
-
-
+              <audio autoPlay >
+                <source src={audio()} type="audio/mpeg"/>
+              </audio>
             </div>
           </span>
-        </div>
       </div>
     </div>
+    
 
   )
 }
