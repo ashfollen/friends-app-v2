@@ -1,78 +1,125 @@
 {
-    "friends": [
-      {
-        "id": 1,
-        "firstName": "Ross",
-        "name": "Ross Geller",
-        "image": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters_opt/p-friends-david-schwimmer.jpg",
-        "about": "Grew Up... on Long Island, N.Y., in an extremely competitive household, thanks to his little sister Monica. Thanksgiving still brings haunting memories of the annual Geller Cup, the trophy for winning the family’s sometimes brutal touch football game. Even more haunting are Ross’ nightmares of a then-overweight Monica eating him alive.",
-        "audio": "./audioclips/Ross.mp3"
-      },
-      {
-        "id": 2,
-        "firstName": "Rachel",
-        "name": "Rachel Greene",
-        "image": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters_opt/p-friends-jennifer-aniston.jpg",
-        "about": "Living… with her longtime best friend Monica, a move that will hopefully not spell the end of their friendship. Monica’s anal-retentive tendencies are legendary. Monica does not see them as something to be shared but rather something to be enforced, militantly.",
-        "audio": "./audioclips/Rachel.mp3"
-      },
-      {
-        "id": 3,
-        "firstName": "Monica",
-        "name": "Monica Geller",
-        "image": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters_opt/p-friends-courteney-cox.jpg",
-        "about": "Grew up… on Long Island, N.Y., in the neurotic Geller household, constantly bickering with her older brother Ross. Monica’s childhood seems like a past life, in part because of her obesity throughout most of high school, which shaped her entire adolescent experience. Even though she is now thin, the oversized ghost of “old Monica” still haunts her from time to time.",
-        "audio": "./audioclips/Monica.mp3"
-      },
-      {
-        "id": 4,
-        "firstName": "Joey",
-        "name": "Joey Tribbiani",
-        "image": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters_opt/p-friends-matt-leblanc.jpg",
-        "about": "Grew up... the only boy among seven sisters in a large Italian-American family in Queens, N.Y. His dad was a pipefitter. You had to be bold and loud to be heard in the Tribbiani family, which might have inspired Joey to be an actor.",
-        "audio": "./audioclips/Joey.mp3"
-      },
-      {
-        "id": 5,
-        "firstName": "Chandler",
-        "name": "Chandler Bing",
-        "image": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters_opt/p-friends-matthew-perry.jpg",
-        "about": "Grew up… in a sexually confusing household with his mother, an erotic novelist, and his father, a cross-dressing Las Vegas entertainer. No wonder he has trouble with women.",
-        "audio": "./audioclips/Chandler.mp3"
-  
-      },
-      {
-        "id": 6,
-        "firstName": "Phoebe",
-        "name": "Phoebe Buffay",
-        "image": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters_opt/p-friends-lisa-kudrow.jpg",
-        "about": "Grew up... on the streets of New York. She was abandoned by every adult in her life and was living on her own by age 14. She stayed in a Buick for a while. It wasn’t all bad, though. She never went to high school, but she did learn French with a small study group that met behind a dumpster.",
-        "audio": "./audioclips/Phoebe.mp3"
-      },
-      {
-        "id": 7,
-        "firstName": "Mike",
-        "name": "Mike Hannigan",
-        "image": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters_opt/p-Friends-Paul-Rudd.jpg",
-        "about": "Overview… an attorney-turned-pianist. Mike has forgone his parents’ affluent lifestyle for the quirkier side of things through his relationship with the kooky Phoebe Buffay. After his divorce, Mike has completely written off marriage, but he might want to give it another shot for Phoebe.",
-        "audio": "./audioclips/Mike.mp3"
-      },
-      {
-        "id": 8,
-        "firstName": "Gunther",
-        "name": "Gunther",
-        "image": "https://qph.fs.quoracdn.net/main-qimg-abff970a329991edc32cec412cde579c",
-        "about": "Gunther has a smoking habit",
-        "audio": "./audioclips/Gunther.mp3"
-      },
-      {
-        "id": 9,
-        "firstName": "Janice",
-        "name": "Janice Hosenstein",
-        "image": "https://www.personality-database.com/profile_images/21566.png",
-        "about": "Oh my God.",
-        "audio":"./audioclips/Janice.mp3"
-      }
-    ]
-  }
-
+  "friends": [
+    {
+      "id": 1,
+      "firstName": "Ross",
+      "name": "Ross Geller",
+      "image": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters_opt/p-friends-david-schwimmer.jpg",
+      "about": "Grew Up... on Long Island, N.Y., in an extremely competitive household, thanks to his little sister Monica. Thanksgiving still brings haunting memories of the annual Geller Cup, the trophy for winning the family’s sometimes brutal touch football game. Even more haunting are Ross’ nightmares of a then-overweight Monica eating him alive.",
+      "audio": "./audioclips/Ross.mp3"
+    },
+    {
+      "id": 2,
+      "firstName": "Rachel",
+      "name": "Rachel Greene",
+      "image": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters_opt/p-friends-jennifer-aniston.jpg",
+      "about": "Living… with her longtime best friend Monica, a move that will hopefully not spell the end of their friendship. Monica’s anal-retentive tendencies are legendary. Monica does not see them as something to be shared but rather something to be enforced, militantly.",
+      "audio": "./audioclips/Rachel.mp3"
+    },
+    {
+      "id": 3,
+      "firstName": "Monica",
+      "name": "Monica Geller",
+      "image": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters_opt/p-friends-courteney-cox.jpg",
+      "about": "Grew up… on Long Island, N.Y., in the neurotic Geller household, constantly bickering with her older brother Ross. Monica’s childhood seems like a past life, in part because of her obesity throughout most of high school, which shaped her entire adolescent experience. Even though she is now thin, the oversized ghost of “old Monica” still haunts her from time to time.",
+      "audio": "./audioclips/Monica.mp3"
+    },
+    {
+      "id": 4,
+      "firstName": "Joey",
+      "name": "Joey Tribbiani",
+      "image": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters_opt/p-friends-matt-leblanc.jpg",
+      "about": "Grew up... the only boy among seven sisters in a large Italian-American family in Queens, N.Y. His dad was a pipefitter. You had to be bold and loud to be heard in the Tribbiani family, which might have inspired Joey to be an actor.",
+      "audio": "./audioclips/Joey.mp3"
+    },
+    {
+      "id": 5,
+      "firstName": "Chandler",
+      "name": "Chandler Bing",
+      "image": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters_opt/p-friends-matthew-perry.jpg",
+      "about": "Grew up… in a sexually confusing household with his mother, an erotic novelist, and his father, a cross-dressing Las Vegas entertainer. No wonder he has trouble with women.",
+      "audio": "./audioclips/Chandler.mp3"
+    },
+    {
+      "id": 6,
+      "firstName": "Phoebe",
+      "name": "Phoebe Buffay",
+      "image": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters_opt/p-friends-lisa-kudrow.jpg",
+      "about": "Grew up... on the streets of New York. She was abandoned by every adult in her life and was living on her own by age 14. She stayed in a Buick for a while. It wasn’t all bad, though. She never went to high school, but she did learn French with a small study group that met behind a dumpster.",
+      "audio": "./audioclips/Phoebe.mp3"
+    },
+    {
+      "id": 7,
+      "firstName": "Mike",
+      "name": "Mike Hannigan",
+      "image": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters_opt/p-Friends-Paul-Rudd.jpg",
+      "about": "Overview… an attorney-turned-pianist. Mike has forgone his parents’ affluent lifestyle for the quirkier side of things through his relationship with the kooky Phoebe Buffay. After his divorce, Mike has completely written off marriage, but he might want to give it another shot for Phoebe.",
+      "audio": "./audioclips/Mike.mp3"
+    },
+    {
+      "id": 8,
+      "firstName": "Gunther",
+      "name": "Gunther",
+      "image": "https://qph.fs.quoracdn.net/main-qimg-abff970a329991edc32cec412cde579c",
+      "about": "Gunther has a smoking habit",
+      "audio": "./audioclips/Gunther.mp3"
+    },
+    {
+      "id": 9,
+      "firstName": "Janice",
+      "name": "Janice Hosenstein",
+      "image": "https://www.personality-database.com/profile_images/21566.png",
+      "about": "Oh my God.",
+      "audio": "./audioclips/Janice.mp3"
+    },
+    {
+      "name": "Mike Hannigan",
+      "image": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters_opt/p-Friends-Paul-Rudd.jpg",
+      "about": "Overview… an attorney-turned-pianist. Mike has forgone his parents’ affluent lifestyle for the quirkier side of things through his relationship with the kooky Phoebe Buffay. After his divorce, Mike has completely written off marriage, but he might want to give it another shot for Phoebe.",
+      "audio": "https://www.101soundboards.com/sounds/538420-im-awesome",
+      "id": 10
+    },
+    {
+      "name": "Janice Hosenstein",
+      "image": "https://www.personality-database.com/profile_images/21566.png",
+      "about": "Oh my God.",
+      "audio": "https://www.101soundboards.com/sounds/217361-joey-and-janice-is-day-of-fun",
+      "id": 11
+    },
+    {
+      "name": "Gun",
+      "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2019%2F09%2Fscreen-shot-2019-09-16-at-11.16.21-am-2000.png",
+      "about": "sis",
+      "audio": "",
+      "id": 12
+    },
+    {
+      "name": "Mike Hannigan",
+      "image": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters_opt/p-Friends-Paul-Rudd.jpg",
+      "about": "Overview… an attorney-turned-pianist. Mike has forgone his parents’ affluent lifestyle for the quirkier side of things through his relationship with the kooky Phoebe Buffay. After his divorce, Mike has completely written off marriage, but he might want to give it another shot for Phoebe.",
+      "audio": "https://www.101soundboards.com/sounds/538420-im-awesome",
+      "id": 13
+    },
+    {
+      "name": "Gunther",
+      "image": "https://qph.fs.quoracdn.net/main-qimg-abff970a329991edc32cec412cde579c",
+      "about": "Gunther has a smoking habit",
+      "audio": "https://www.101soundboards.com/sounds/217314-oh-dark-mother-once-again-i-saw-collector-smoke-eat-eat",
+      "id": 14
+    },
+    {
+      "name": "Mike Hannigan",
+      "image": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters_opt/p-Friends-Paul-Rudd.jpg",
+      "about": "Overview… an attorney-turned-pianist. Mike has forgone his parents’ affluent lifestyle for the quirkier side of things through his relationship with the kooky Phoebe Buffay. After his divorce, Mike has completely written off marriage, but he might want to give it another shot for Phoebe.",
+      "audio": "https://www.101soundboards.com/sounds/538420-im-awesome",
+      "id": 15
+    },
+    {
+      "name": "Mike Hannigan",
+      "image": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters_opt/p-Friends-Paul-Rudd.jpg",
+      "about": "Overview… an attorney-turned-pianist. Mike has forgone his parents’ affluent lifestyle for the quirkier side of things through his relationship with the kooky Phoebe Buffay. After his divorce, Mike has completely written off marriage, but he might want to give it another shot for Phoebe.",
+      "audio": "https://www.101soundboards.com/sounds/538420-im-awesome",
+      "id": 16
+    }
+  ]
+}
