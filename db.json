@@ -71,55 +71,7 @@
       "image": "https://www.personality-database.com/profile_images/21566.png",
       "about": "Oh my God.",
       "audio": "./audioclips/Janice.mp3"
-    },
-    {
-      "name": "Mike Hannigan",
-      "image": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters_opt/p-Friends-Paul-Rudd.jpg",
-      "about": "Overview… an attorney-turned-pianist. Mike has forgone his parents’ affluent lifestyle for the quirkier side of things through his relationship with the kooky Phoebe Buffay. After his divorce, Mike has completely written off marriage, but he might want to give it another shot for Phoebe.",
-      "audio": "https://www.101soundboards.com/sounds/538420-im-awesome",
-      "id": 10
-    },
-    {
-      "name": "Janice Hosenstein",
-      "image": "https://www.personality-database.com/profile_images/21566.png",
-      "about": "Oh my God.",
-      "audio": "https://www.101soundboards.com/sounds/217361-joey-and-janice-is-day-of-fun",
-      "id": 11
-    },
-    {
-      "name": "Gun",
-      "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2019%2F09%2Fscreen-shot-2019-09-16-at-11.16.21-am-2000.png",
-      "about": "sis",
-      "audio": "",
-      "id": 12
-    },
-    {
-      "name": "Mike Hannigan",
-      "image": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters_opt/p-Friends-Paul-Rudd.jpg",
-      "about": "Overview… an attorney-turned-pianist. Mike has forgone his parents’ affluent lifestyle for the quirkier side of things through his relationship with the kooky Phoebe Buffay. After his divorce, Mike has completely written off marriage, but he might want to give it another shot for Phoebe.",
-      "audio": "https://www.101soundboards.com/sounds/538420-im-awesome",
-      "id": 13
-    },
-    {
-      "name": "Gunther",
-      "image": "https://qph.fs.quoracdn.net/main-qimg-abff970a329991edc32cec412cde579c",
-      "about": "Gunther has a smoking habit",
-      "audio": "https://www.101soundboards.com/sounds/217314-oh-dark-mother-once-again-i-saw-collector-smoke-eat-eat",
-      "id": 14
-    },
-    {
-      "name": "Mike Hannigan",
-      "image": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters_opt/p-Friends-Paul-Rudd.jpg",
-      "about": "Overview… an attorney-turned-pianist. Mike has forgone his parents’ affluent lifestyle for the quirkier side of things through his relationship with the kooky Phoebe Buffay. After his divorce, Mike has completely written off marriage, but he might want to give it another shot for Phoebe.",
-      "audio": "https://www.101soundboards.com/sounds/538420-im-awesome",
-      "id": 15
-    },
-    {
-      "name": "Mike Hannigan",
-      "image": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters_opt/p-Friends-Paul-Rudd.jpg",
-      "about": "Overview… an attorney-turned-pianist. Mike has forgone his parents’ affluent lifestyle for the quirkier side of things through his relationship with the kooky Phoebe Buffay. After his divorce, Mike has completely written off marriage, but he might want to give it another shot for Phoebe.",
-      "audio": "https://www.101soundboards.com/sounds/538420-im-awesome",
-      "id": 16
     }
+    
   ]
 }
