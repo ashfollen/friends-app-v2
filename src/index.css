@@ -21,5 +21,10 @@ code {
   margin: .5em;
   
 }
+.icon {
+  height: 24px;
+  width: 24px;
+  stroke: black;
 
+}
 
