@@ -10,8 +10,6 @@ import Phoebe from '../audioclips/Phoebe.mp3'
 
 export default function FriendDetails ({friend}){
 
- 
-
   function audio (){
     if (friend.firstName === 'Ross'){
       return Ross
@@ -34,11 +32,6 @@ export default function FriendDetails ({friend}){
     }
   }
 
-  function handleClick(){
-    
-  }
-
-
   return(
   
     <div className="friend-card" key={friend.id}>
@@ -60,7 +53,5 @@ export default function FriendDetails ({friend}){
           </span>
       </div>
     </div>
-    
-
   )
 }

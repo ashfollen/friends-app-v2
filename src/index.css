@@ -28,6 +28,7 @@ h1, h2, h3 {
   font-family: 'gabriel_weiss_friends_fontRg';
   color: white;
 }
+
 p {
   color: #69BF8D;
   font-family: 'quicksandlight';
@@ -42,7 +43,6 @@ h2 {
 
 .App {
   height: 1000px;
-  /* background-image: url('./images/friends-logo.jpg') */
 }
 
 .nav {
@@ -77,12 +77,10 @@ h2.yellowlink a{
   margin: 2%;
   display: flex;
   flex-direction: row;
-
 }
 
 .friend-image img{
-  width: 300px;
-  
+  width: 300px;  
 }
 
 .friend-card {
@@ -92,6 +90,7 @@ h2.yellowlink a{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 400px;
 }
 
 .header {
@@ -108,8 +107,6 @@ h2.yellowlink a{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  /* margin: 50px; */
-
 }
 
 .old-friends {

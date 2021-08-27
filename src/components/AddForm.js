@@ -12,9 +12,9 @@ function AddForm({ onAddNewFriend }) {
         const newFriendFormData = {
             "name": newFriendName,
             "image": newFriendImage,
-            "about": newFriendAbout,
-            
+            "about": newFriendAbout,    
         }
+
         console.log(newFriendFormData);  
 
         fetch("http://localhost:3000/friends", {
@@ -31,8 +31,6 @@ function AddForm({ onAddNewFriend }) {
     function friendStatus() {
         setFriend(true);
     }
-
-
 
     return (
         <form onSubmit={handleSubmit}>
@@ -67,7 +65,6 @@ function AddForm({ onAddNewFriend }) {
                         onChange={e => setNewFriendAbout(e.target.value)}
                     />
                 </div>
-
 
                 <div className="form-field-input">                   
                     <input className="input-button" type="submit" value="Add Friend" onClick={friendStatus} />

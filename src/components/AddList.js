@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, { useState } from 'react';
 
 function AddList({ onAddNewFriend }) {
     const [ mikeFriend, setMikeFriend ] = useState(false);
@@ -53,7 +53,7 @@ function AddList({ onAddNewFriend }) {
             <h2>Add an Old Friend</h2>
             <div className="old-friend-list">
                 <h3 id="Mike" onClick={e => handleClick(e.target.id)}>Mike</h3>
-                    {mikeFriend ? <p><strong> Mike is Added to Friends! </strong></p> : null }
+                    {mikeFriend ? <p> Mike is Added to Friends! </p> : null }
                 <h3 id="Gunther" onClick={e => handleClick(e.target.id)}>Gunther</h3>
                     {guntherFriend ? <p> Gunther is Added to Friends! </p> : null }
                 <h3 id="Janice" onClick={e => handleClick(e.target.id)}>Janice</h3>
